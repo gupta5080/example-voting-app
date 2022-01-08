@@ -26,7 +26,7 @@ pipeline {
 		               {
 		                   dir('vote') 
 						   {
-                           // vote block
+                            // vote block
                          
                           
                            dockerImage = docker.build voteimage
