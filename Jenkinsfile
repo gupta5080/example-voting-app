@@ -12,7 +12,7 @@ pipeline {
           steps{
               
              
-			  checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/gupta5080/example-voting-app.git']]])
+			 checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/gupta5080/example-voting-app.git']]])
           }  
             
             
